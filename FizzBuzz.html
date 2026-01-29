@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let answer = parseInt(prompt("Ingrese un número hasta el que quiera el FizzBuzz: "));
+
+    for(let i = 1; i <= answer; i++){
+        (i % 3 == 0 && i % 5 == 0) ?
+        console.log("FizzBuzz"):(i % 3 == 0)?
+        console.log("Fizz"):(i % 5 == 0)?
+        console.log("Buzz"): console.log(i);
+    }
+    </script>
+</body>
+</html>
